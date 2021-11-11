@@ -1,0 +1,51 @@
+.home-button {
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.right-nav-button {
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+  padding: 5px;
+  font-size: 12px;
+
+}
+
+.grey-bg {
+  background-color: lightgray;
+}
+
+.nav-item:hover .nav-link {
+  color: black;
+  background-color: lightgrey; 
+}
+
+.main-card {
+  margin: 30px;
+}
+
+@media (max-width: 768px) {
+  .navbar-custom-bg {
+     background-color: lightseagreen;
+   }
+  .grey-bg {
+     background-color: transparent;
+   }
+  .main-card {
+    margin: 30px;
+  }
+  .w-50 {}
+ }
+
+h3 {
+  color: lightseagreen;
+}
+
+h4 {
+  color: lightseagreen;
+}
